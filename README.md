@@ -1,1 +1,1 @@
-# Interview Preparation 
+# Algorithms
