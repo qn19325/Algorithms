@@ -5,7 +5,7 @@ class Node:
         self.right = right
 
 ##############################################################################     
-def minDepth(root: Node) -> int:
+def min_depth(root: Node) -> int:
     if not root: 
         return 0
 
@@ -37,5 +37,5 @@ def build_tree(nodes, f):
 
 if __name__ == '__main__':
     root = build_tree(iter(['3', '9', 'x', 'x', '20', '15', 'x', 'x', '7', 'x', 'x']), int)
-    res = minDepth(root)
+    res = min_depth(root)
     print(res)
